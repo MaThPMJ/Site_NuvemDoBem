@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="pt-br" class="vars">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Perguntas Frequentes — Turma do Bem</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/tokens.css">
+</head>
+<body class="body">
+  <header class="header">
+    <div class="container nav">
+      <a class="logo" href="index.html">
+        <span class="logo__text">Nuvem do Bem</span>
+      </a>
+
+      <button class="menu__toggle focusable" aria-expanded="false" aria-controls="mainMenu">
+        <span class="menu__bar"></span>
+        <span class="menu__bar"></span>
+        <span class="menu__bar"></span>
+        <span class="menu__sr">Menu</span>
+      </button>
+
+      <nav class="menu" id="mainMenu">
+        <ul class="menu__list">
+          <li class="menu__item"><a class="menu__link focusable" href="index.html"><i class="fa-regular fa-house icon-menu"></i></i>Início</a></li>
+          <li class="menu__item"><a class="menu__link focusable" href="sobre.html">Sobre</a></li>
+          <li class="menu__item"><a class="menu__link focusable" href="tdb.html">A ONG</a></li>
+          <li class="menu__item"><a class="menu__link focusable" href="faq.html">FAQ</a></li>
+          <li class="menu__item"><a class="menu__link focusable" href="integrantes.html">Integrantes</a></li>
+          <li class="menu__item"><a class="menu__link focusable" href="contato.html">Contato</a></li>
+          <li class="menu__item"><a class="menu__link focusable" href="login.html">Login</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container main">
+    <section class="section">
+      <h2 class="h2">Perguntas frequentes</h2>
+      <div class="faq">
+        <button class="faq__item focusable" data-faq>O site é responsivo?</button>
+        <div class="faq__answer">
+          <p class="p">Sim. O site foi desenvolvido com layout responsivo para funcionar em celulares, tablets e desktops.</p>
+        </div>
+
+        <button class="faq__item focusable" data-faq>Quais páginas compõem o projeto?</button>
+        <div class="faq__answer">
+          <p class="p">O projeto inclui as páginas: Início, Sobre, A ONG, FAQ, Contato, Integrantes e Login.</p>
+        </div>
+
+        <button class="faq__item focusable" data-faq>Posso usar frameworks externos?</button>
+        <div class="faq__answer">
+          <p class="p">Não. O desafio exige o uso de HTML, CSS e JavaScript puros, sem frameworks.</p>
+        </div>
+
+        <button class="faq__item focusable" data-faq>Há validação nos formulários?</button>
+        <div class="faq__answer">
+          <p class="p">Sim. Os formulários de Contato e Login têm validações feitas com JavaScript nativo.</p>
+        </div>
+
+        <button class="faq__item focusable" data-faq>O menu funciona no celular?</button>
+        <div class="faq__answer">
+          <p class="p">Sim. Um botão do tipo “hambúrguer” aparece no mobile e permite abrir/fechar o menu de navegação.</p>
+        </div>
+
+        <button class="faq__item focusable" data-faq>Qual o propósito do projeto?</button>
+        <div class="faq__answer">
+          <p class="p">Desenvolver um site funcional e informativo que simule uma plataforma de gestão social para a ONG Turma do Bem.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__columns">
+      <div class="footer__col">
+        <strong class="strong">Nuvem do Bem – Projeto de Atendimento</strong>
+        <p class="p p--muted">Inclusão social através da saúde bucal.</p>
+        <small class="small">Projeto acadêmico (FIAP) — Sprint 2</small>
+      </div>
+
+      <div class="footer__col">
+        <strong class="strong">Navegação</strong>
+        <p class="p">
+          <a class="link" href="tdb.html">A ONG</a><br>
+          <a class="link" href="faq.html">Perguntas frequentes</a>
+        </p>
+      </div>
+
+      <div class="footer__col">
+        <strong class="strong">Contato</strong>
+        <p class="p p--muted">E-mail institucional (projeto)<br>Telefone (projeto)</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
