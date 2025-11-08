@@ -1,0 +1,18 @@
+.vars {
+    --color-primary: #1E4E8C;
+    --color-secondary: #F29E1F;
+    --color-bg: #F7F9FC;
+    --color-surface: #FFFFFF;
+    --color-text: #0F172A;
+    --color-text-soft: #475569;
+    --color-border: #E2E8F0;
+    --radius-s: 8px;
+    --radius-m: 12px;
+    --radius-l: 16px;
+    --space-1: 8px;
+    --space-2: 16px;
+    --space-3: 24px;
+    --space-4: 32px;
+    --space-5: 48px;
+    --maxw: 1200px;
+}
