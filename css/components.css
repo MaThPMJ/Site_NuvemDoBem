@@ -1,0 +1,122 @@
+.btn {
+    display: inline-block;
+    border-radius: var(--radius-s);
+    padding: 12px 20px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: .2s;
+    cursor: pointer
+}
+
+.btn--primary {
+    background: var(--color-primary);
+    color: #fff
+}
+
+.btn--primary:hover {
+    filter: brightness(0.94)
+}
+
+.btn--outline {
+    border: 1px solid var(--color-primary);
+    color: var(--color-primary);
+    background: #fff
+}
+
+.btn--outline:hover {
+    background: #EAF2FF
+}
+
+.card {
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-m);
+    padding: var(--space-3);
+    transition: transform .2s, box-shadow .2s
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, .08)
+}
+
+.icon {
+    padding-bottom: 20px;
+    display: block
+}
+.icon-menu{
+    padding-right: 6px;
+}
+
+.list {
+    margin: 0;
+    padding-left: var(--space-3)
+}
+
+.list__item {
+    margin-bottom: var(--space-1)
+}
+
+.form {
+    display: grid;
+    gap: var(--space-2)
+}
+
+.label {
+    font-weight: 600;
+    margin-bottom: 6px
+}
+
+.input,
+.textarea {
+    width: 100%;
+    padding: 12px 0px;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-s);
+    font: inherit;
+    color: var(--color-text);
+    background: #fff
+}
+
+.form__error {
+    color: #b91c1c;
+    margin-top: 8px
+}
+
+.form__success {
+    color: #166534;
+    margin-top: 8px
+}
+
+.faq {
+    display: grid;
+    gap: 12px
+}
+
+.faq__item {
+    width: 100%;
+    text-align: left;
+    background: #fff;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-s);
+    padding: 12px 14px;
+    font: inherit;
+    cursor: pointer
+}
+
+.faq__answer {
+    display: none;
+    padding: 12px 14px;
+    background: #fff;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-s)
+}
+
+.faq__answer--open {
+    display: block
+}
+
+.auth {
+    max-width: 420px;
+    margin: 0 auto
+}
